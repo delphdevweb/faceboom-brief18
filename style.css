@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Ubuntu, system-ui, sans-serif;
+  font-size: 62.5%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -.04em;
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+}
+
+h1 {
+  color: #9932CC;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  object-fit: cover;
+}
+
+footer p {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+@media (max-width: 767px) {
+
+  body {
+    font-size: 1.8rem;
+    line-height: 1.55;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  body {
+    font-size: 2rem;
+    line-height: 1.7;
+  }
+
+}
